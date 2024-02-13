@@ -4,6 +4,8 @@ body {
     margin: 0;
     height: 100vh;
     font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 /* HEADER */
@@ -12,15 +14,52 @@ header, footer {
     background-color: #1f2937;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 80px;
+    padding-top: 5px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header-text {
+    width: 400px;
+    margin-right: 20px;
 }
 
 .title {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-bottom: 0;
 }
 
 a, .subtitle {
@@ -28,9 +67,27 @@ a, .subtitle {
     color: #e5e7eb;
 }
 
+.subtitle {
+    margin: 0;
+}
+
 .sign-up {
     background-color: #3882f6;
     color: #fff;
+    padding: 8px 25px;
+    margin: 10px 0;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.header-image {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* MAIN */
