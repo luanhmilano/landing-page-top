@@ -137,8 +137,19 @@ main {
     border-radius: 8px;
 }
 
+/* MAIN QUOTE */
+
 .main-quote {
     background-color: #e5e7eb;
+    padding: 100px 50px;
+}
+
+.main-quote-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 60%;
+    margin: 0 auto;
 }
 
 blockquote {
@@ -146,4 +157,12 @@ blockquote {
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
+    margin: 0;
+    display: flex;
+}
+
+#author {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
 }
