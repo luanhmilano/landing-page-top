@@ -126,7 +126,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    max-width: 200px;
+    max-width: 150px;
 }
 
 .card {
@@ -195,3 +195,13 @@ blockquote {
     border: 2px solid #fff;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+footer p {
+    color: #fff;
+}
